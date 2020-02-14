@@ -27,3 +27,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         # Path of TSLint configuration
         config: ${{ github.workspace }}/tslint.json
+        project: ${{ github.workspace }}/tsconfig.json
